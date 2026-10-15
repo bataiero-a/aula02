@@ -3,4 +3,6 @@ var nota1 = 3
 var nota2 = 5
 var nota3 = 2
 
-if 
+if (nota1 + nota2 + nota3 >= 7) {
+
+}

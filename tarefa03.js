@@ -11,4 +11,5 @@ if (tipoTemperatura == "C") {
     temperaturaConvertida = ((  temperatura - 32) * (5/9))
 }
 
+
 console.log("O valor convertido é: " + temperaturaConvertida)
