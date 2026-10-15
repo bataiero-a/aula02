@@ -1,0 +1,17 @@
+//Escreva um programa que leia o salário de um funcionário e aplique um aumento de acordo com a seguinte regra: salários menores que R$1000 recebem 20% de aumento, entre R$1000 e R$2000 recebem 15%, e acima de R$2000 recebem 10%.
+var salarioUsuario = 850
+ 
+if (salarioUsuario < 1000) {
+    salarioUsuario = salarioUsuario * 1.20
+    console.log(salarioUsuario)
+}
+else {
+    if (salarioUsuario <= 2000) {
+        salarioUsuario = salarioUsuario * 1.15
+        console.log(salarioUsuario)
+    }
+    else {
+        salarioUsuario = salarioUsuario * 1.10
+        console.log(salarioUsuario)
+    }
+}
