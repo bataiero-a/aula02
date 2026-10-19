@@ -12,4 +12,5 @@ if (tipoTemperatura == "C") {
 }
 
 
+
 console.log("O valor convertido é: " + temperaturaConvertida)
